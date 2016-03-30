@@ -1,0 +1,183 @@
+/* Space out content a bit */
+body {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.header,
+.footer {
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+.comment-container {
+  height:275px;
+  overflow-y: auto;
+}
+
+.header {
+  padding-bottom: 12px;
+  border-bottom: 1px solid #e5e5e5;
+}
+
+.header h3 {
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height: 40px;
+}
+
+/* Customize container */
+@media (min-width: 920px) {
+  .container {
+    max-width: 900px;
+  }
+}
+.container-narrow > hr {
+  margin: 30px 0;
+}
+
+/* Supporting marketing content inside MainCOntent */
+.marketing {
+  border: 2px solid #EFEFEF; 
+  padding: 10px 0 0 0;
+}
+.marketing p + h4 {
+  margin-top: 28px;
+}
+
+.title {
+    font-size: 15px;
+    font-weight: bold;
+    margin-bottom: 0;
+}
+
+.row {
+  margin-left: 0;
+  margin-right: 0;
+}
+
+.social img {
+  width: 20px;
+  margin-right: 8px;
+}
+
+.controls {
+  margin-top: 10px;
+}
+
+.controls img {
+  width: 30px;
+  margin-left: 10px;
+  border-left: 1px solid grey;
+  padding-left: 10px;
+}
+
+.subtitle {
+  color: #B1B1B1;
+}
+
+.logo img {
+  padding: 0;
+  max-width: 50px;
+}
+
+.commenter-icon img {
+  padding: 0;
+  max-width: 50px;  
+}
+
+.bigimage {
+  padding-left: 15px;
+  padding-right: 15px;
+  border-bottom: 1px solid #e5e5e5;
+  padding-bottom: 8px;
+}
+
+.stats .title {
+  font-size: 12px;
+}
+
+.stats {
+    padding-top: 10px;
+    background-color: #dfe3ee;
+    border-bottom: 1px solid #e5e5e5;
+}
+
+span.count {
+  font-weight: normal;
+  color: green;
+  margin-left: 10px;
+}
+
+p.count {
+  font-size: 20px;
+}
+
+span.comment-count {
+    padding: 1px 5px;
+    color: white;
+    background-color: #D60808;
+    font-size: 12px;
+    font-weight: normal;
+}
+
+.comments {
+  border-bottom: 1px solid #e5e5e5;
+  padding-top: 15px;
+  padding-bottom: 15px;  
+}
+
+.comment-box {
+  padding-top: 15px;
+  padding-bottom: 15px;
+  background-color: #dfe3ee;
+}
+
+.input-group {
+  padding-top: 9px;
+}
+
+.comments .author {
+  color: orange;
+  font-weight: bold;
+  font-size: 12px;
+}
+
+.comments .comment-controls {
+  color: #C5C5C5;
+  font-weight: normal;
+  font-size: 12px;
+}
+
+.comments .comment-controls .c-like {
+  cursor: pointer;
+}
+
+.comments .comment-controls .c-like:hover {
+  color: grey;
+}
+
+.public-image {
+  vertical-align: middle;
+  margin-right: 4px;
+}
+
+.blue-like-link {
+  color: #0079FF;
+  font-weight: bold;
+}
+
+/* Responsive: Portrait tablets and up */
+@media screen and (min-width: 768px) {
+  /* Remove the padding we set earlier */
+  .header,
+  .footer {
+    padding-right: 0;
+    padding-left: 0;
+  }
+  
+  .header {
+    margin-bottom: 12px;
+  }
+  
+}
